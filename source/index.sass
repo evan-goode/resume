@@ -1,0 +1,45 @@
+$accent: cornflowerblue
+$primary: black
+$lighter: lighten($primary, 50%)
+*
+	-webkit-print-color-adjust: exact
+html
+	font-size: 10pt
+@page
+	margin: 0.5in
+body
+	display: flex
+	align-items: center
+	justify-content: center
+	font-family: "Helvetica"
+	color: $primary
+a
+	color: $accent
+td
+	padding: 0.4rem
+	vertical-align: top
+div
+	margin-bottom: 1rem
+p
+	margin: 0
+	margin-bottom: 0.2rem
+h1
+	font-size: 3rem
+	margin-bottom: 1rem
+	color: $accent
+	text-transform: uppercase
+h2, h3
+	font-size: 1rem
+	margin: 0
+	margin-bottom: 0.2rem
+	text-transform: uppercase
+	font-weight: normal
+h3
+	color: $lighter
+.lighter
+	color: $lighter
+.left
+	text-transform: uppercase
+	text-align: right
+	color: $accent
+	font-weight: bold
