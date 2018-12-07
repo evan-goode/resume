@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "babel-preset-env": "^1.4.0",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-notify": "^3.0.0",
-    "gulp-pug": "^3.3.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-util": "^3.0.8"
+    "parcel": "^1.9.7"
+  },
+  "scripts": {
+    "start": "npx parcel source/index.pug --cache-dir build/cache/ --out-dir build/",
+    "build": "npx parcel build source/index.pug --cache-dir build/cache/ --out-dir build/"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "pug": "^2.0.3"
   }
 }
