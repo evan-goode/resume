@@ -1,0 +1,68 @@
+\documentclass[hidelinks]{resume}
+
+\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\urlstyle{same}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{multicol}
+\setlength{\multicolsep}{3pt}
+\setlength{\columnsep}{20pt}
+
+\name{Evan Goode}
+\address{\href{mailto:mail@evangoo.de}{mail@evangoo.de} \\ \href{tel:+1-404-917-3321}{+1 (404) 917 3321}}
+\address{\url{https://github.com/evan-goode}}
+\begin{document}
+\fontsize{11}{13}\selectfont
+
+\begin{rSection}{Selected Skills \& Proficiencies}
+	\begin{itemize}[nosep,noitemsep,leftmargin=*]
+		\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+		\begin{multicols}{2}[]
+			\item Designing and building applications with Python and Node.js
+			\item Front-end web development with HTML, CSS, JavaScript, TypeScript, React, GraphQL
+			\item Administration of GNU/Linux, macOS, and other Unix-like systems
+			\columnbreak
+			\item Virtualization and containerization technologies such as libvirt/KVM/QEMU and Docker
+			\item Agile software development via Kanban or Scrum, open-source software development, git
+			\item High-level systems design and problem solving
+			\item Documentation and technical writing
+		\end{multicols}
+	\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Education}
+	\begin{rSubsection}{Georgia Institute of Technology}{Expected 2021}{B.S. Computer Science with concentrations in Media and Intelligence}{}
+	Major GPA: 4.00, Cumulative GPA: 3.95
+	\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Professional Experience}
+	\begin{rSubsection}{Georgia Institute of Technology College of Computing}{Fall 2019}{Undergraduate Teaching Assistant, CS 3451: Introduction to Computer Graphics}{}
+		Held help sessions/office hours twice a week, debugged and graded programming homework. Course was taught using TypeScript and WebGL.
+	\end{rSubsection}
+	\begin{rSubsection}{Red Hat, Inc.}{Summer 2019}{Software Engineering Internship}{}
+		Added a new feature to Red Hat Image Builder to enable automated uploads of RHEL images to cloud providers including AWS, Microsoft Azure, and Google Cloud.
+	\end{rSubsection}
+	\begin{rSubsection}{Axio Global}{Summer 2018}{Development Intern}{}
+		Launched a web platform to facilitate communication between clients and in-house analysts, created tools for visualizing insurance policy data, gathered experience building web applications in a fast-paced startup environment.
+	\end{rSubsection}
+	\begin{rSubsection}{Georgia Institute of Technology School of Mathematics}{Summer 2016, Summer 2017}{Student Assistant}{}
+		Developed in-house infrastructure for managing RHEL and macOS systems, monitoring building power usage and coolant flow, and syncing user permissions across services.
+	\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Involvement}
+	\begin{rSubsection}{Freelance Developer}{}{}{}
+		Designed and built companion web application (\url{https://sexdifference.org}) for a scholarly article published in the Philosophical Transactions of the Royal Society, contributed software to the open-source community. See GitHub profile above.
+	\end{rSubsection}
+	\begin{rSubsection}{GT WebDev}{February 2019}{Guest Speaker}{}
+		Gave a brief history of JavaScript and an introduction to back-end web development with Node.js.
+	\end{rSubsection}
+	\begin{rSubsection}{Decatur High School}{Fall 2016--Spring 2017}{Media Center Intern}{}
+		Created signage software to display messages around the school, replacing a \$1,500/year proprietary product. Migrated media center scheduling system to a new software platform.
+	\end{rSubsection}
+\end{rSection}
+
+\end{document}
